@@ -56,7 +56,7 @@ Considering the verbose one, and reporting only broken links by default.
 * This tools does **not** look for urls in ```"src="``` attributes.
   (only for ```href=```)
 * Also it does not parse the html grammar and does not discern *href*
-attributes from plain text in the <pre><code> tags.
+attributes from plain text in the &lt;pre&gt; &lt;code&gt; tags.
 * The html is supposed to be well formed..
 
 I didn't perform that much tests, it is just a toy project.
