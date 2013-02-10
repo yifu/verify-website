@@ -4,12 +4,14 @@
 purpose is to browse a website for its links and check they are still
 responsiveful. Broken links are reported. Here is an output example:
 
+```
 Check the website  http://yves-ba.com
 Fetching url:  http://yves-ba.com  ...  Ok.
 Fetching url:  http://yves-ba.com/resune.html  ... BROKEN LINK!!
 Fetching url:  http://yves-ba.com/blog.css  ...  Ok.
 Fetching url:  http://htmlandcssbook.com/  ...  Ok.
 ...
+```
 
 Basicaly, it works with a bread-first-search algorithm (well I've
 tried but I ma still wondering how to implement a queue in Clojure)
